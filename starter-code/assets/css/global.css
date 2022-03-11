@@ -1,7 +1,17 @@
-.topo{
+.topo .nav-pages .page{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
+}
+.topo .nav-pages .page .number{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.topo .nav-pages{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
 }
